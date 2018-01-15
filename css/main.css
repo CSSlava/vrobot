@@ -1,0 +1,86 @@
+.fullscreen-bg {
+    overflow: hidden;
+    z-index: -100;
+    position: relative;
+    height: 100%;
+    width: 100%;
+    padding-top:45%;
+}
+
+.fullscreen-bg__video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.overlay {
+    background: rgba(0,0,0,0.6);
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    z-index: 4;
+    text-align: center;
+}
+
+.overlay h1 {
+    text-align:center;
+    color:#fff;
+    font-size: 70px;
+    margin-top:17%;
+}
+
+.navbar {
+    z-index: 5;
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100%;
+}
+
+
+/* ABOUT SECTION */
+
+.about_section {
+    text-align: right;
+    height: 600px;
+    background: url("../images/Coloss_1.png") no-repeat left top;
+    -webkit-background-size: 50%;
+    background-size: 50%;
+    /*width: auto;*/
+
+    /*-webkit-background-size: 100%;*/
+    /*-moz-background-size: 100%;*/
+    /*-o-background-size: 100%;*/
+    /*background-size: 100%;*/
+
+    /*-webkit-background-size: cover;*/
+    /*-moz-background-size: cover;*/
+    /*-o-background-size: cover;*/
+    /*background-size: cover;*/
+}
+
+
+/* SOLUTION SECTION */
+
+.solution_section {
+    /*background: #b8b8b8;*/
+    height: 600px;
+    background: #b8b8b8 url("../images/dragster.png") no-repeat right;
+    -webkit-background-size: 50%;
+    background-size: 50%;
+}
+
+.solution_section-sol_1 {
+
+}
+
+.solution_section-sol_2 {
+
+}
+
+.solution_section-sol_3 {
+    
+}

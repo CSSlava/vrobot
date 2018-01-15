@@ -1,10 +1,153 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>VRobot</title>
-</head>
-<body>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="">
 
+    <title>VRobot</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link type="text/css" href="css/main.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body data-spy="scroll" data-offset="10" data-target=".navbar">
+
+<!-- NAVBAR -->
+<!--<nav class="navbar navbar-inverse">-->
+    <!--<div class="container-fluid">-->
+        <!--<div class="navbar-header">-->
+            <!--<button type="button" class="navbar-toggle">-->
+                <!--<span class="icon-bar"></span>-->
+                <!--<span class="icon-bar"></span>-->
+                <!--<span class="icon-bar"></span>-->
+            <!--</button>-->
+
+            <!--<a class="navbar-brand" href="#">-->
+                <!--<img src="" alt="Logo" style="width:40px;">-->
+            <!--</a>-->
+        <!--</div>-->
+        <!--<div class="collapse navbar-collapse navbar-right">-->
+            <!--<ul class="nav navbar-nav">-->
+                <!--<li class="active"><a href="#">Home</a></li>-->
+                <!--<li><a href="#">About</a></li>-->
+                <!--<li><a href="#">Our solution</a></li>-->
+                <!--<li><a href="#">Gallery</a></li>-->
+                <!--<li><a href="#">Contacts</a></li>-->
+            <!--</ul>-->
+            <!--<button type="button" class="btn navbar-btn">BUY</button>-->
+        <!--</div>-->
+    <!--</div>-->
+<!--</nav>-->
+
+
+<!-- MAIN -->
+
+<!--<video autoplay loop muted poster="" id="background">-->
+    <!--<source src="https://www.youtube.com/embed/LLgLAFzwwPo" type="video/mp4">-->
+<!--</video>-->
+
+<div class="fullscreen-bg">
+
+    <nav class="navbar">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+
+                <a class="navbar-brand" href="#">
+                    <img src="images/logo.png" alt="Logo" style="width:40px;">
+                </a>
+            </div>
+            <div class="collapse navbar-collapse navbar-right">
+                <ul class="nav navbar-nav">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Our solution</a></li>
+                    <li><a href="#">Gallery</a></li>
+                    <li><a href="#">Contacts</a></li>
+                </ul>
+                <button type="button" class="btn navbar-btn">BUY</button>
+            </div>
+        </div>
+    </nav>
+
+    <div class="overlay">
+        <h1>Robotics<br>in virtual reality</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus, accusantium, dolorum est exercitationem<br>
+            id ipsa iste laborum libero magni maiores maxime nihil obcaecati odio officiis, quia reprehenderit repudiandae
+            rerum tempora.</p>
+        <button type="button" class="btn btn-default">SteamVR</button>
+    </div>
+    <video loop muted autoplay poster="images/main_bg.jpg" class="fullscreen-bg__video">
+        <source src="video/VRobot.mp4" type="video/mp4">
+        <source src="video/VRobot.webm" type="video/webm">
+    </video>
+</div>
+
+<div class="about_section">
+    <div class="container">
+        <h2>About</h2>
+        <p>VRobot real virtual simulator of the designer from which you
+            can compose<br>any robot and get or test your skills of designing
+            and programming robots.<br>Innovative program allows you to plunge
+            into your robots and easily learn the principles of<br>programming
+            compile complex algorithms and study complex mechanisms.</p>
+    </div>
+</div>
+
+<div class="solution_section">
+    <div class="container">
+        <h2>Our solution</h2>
+        <div class="row">
+            <div class="col-md-4 solution_section-sol_1">
+                <h3>New 1</h3>
+                <p>We are expanding the boundaries of the worldview.
+                    We give a new look at learning and the approach to quick learning and assimilation of information
+                </p>
+            </div>
+            <div class="col-md-4 solution_section-sol_2">
+                <h3>New 2</h3>
+                <p>Using virtual reality you develop abstract thinking and scale of subjects.
+                    Use the latest technology and become innovators
+                </p>
+            </div>
+            <div class="col-md-4 solution_section-sol_3">
+                <h3>New 3</h3>
+                <p>VRobot saves you time, shows the prospects of robotics, gives you the skills today to use them tomorrow
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="js/bootstrap.min.js"></script>
 </body>
 </html>
